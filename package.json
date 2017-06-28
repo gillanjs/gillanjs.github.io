@@ -1,0 +1,12 @@
+{
+  "name": "gillanjs.github.io",
+  "version": "1.0.0",
+  "description": "My GitHub pages site",
+  "devDependencies": {
+  "gulp": "latest",
+  "gulp-util": "latest",
+  "gulp-uglify": "latest",
+  "gulp-concat": "latest",
+  "gulp-connect": "latest"
+  }
+}
