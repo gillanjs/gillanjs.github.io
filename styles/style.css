@@ -2,18 +2,22 @@ body{
     background-color:#FDFDFD;
 }
 
+.container{
+    max-width:960px;
+    margin: 0 auto;
+}
+
 header{
     background-color:#48497F;
     width:100%;
-    height:75px;
+    height:50px;
     font-family: 'Work Sans', sans-serif;
-    font-size:30px;
+    font-size:25px;
     color:#FFF;
 }
 
 .name{
     float:left;
-    padding-left:150px;
     font-weight: bold;
 }
 
@@ -26,11 +30,10 @@ header{
 }
 
 .nav-li{
-    padding-top:20px;
+    padding-top:11px;
 }
 
 nav{
-    padding-right:150px;
 }
 
 li{
