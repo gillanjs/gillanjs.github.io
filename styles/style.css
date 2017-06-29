@@ -12,20 +12,17 @@ header{
 }
 
 .name{
-    /*
-    padding-top:20px;
+    float:left;
     padding-left:150px;
-
-    */
-        float:left;
 }
 
-.nav-float{
+.nav-right{
     float:right;
+    padding-right: 20px;
 }
 
 .nav-li{
-
+    padding-top:20px;
 }
 
 nav{
@@ -34,4 +31,8 @@ nav{
 
 li{
     list-style: none;
+}
+
+ul{
+    display:inline;
 }
