@@ -2,6 +2,9 @@
   "name": "gillanjs.github.io",
   "version": "1.0.0",
   "description": "My GitHub pages site",
+    "scripts": {
+    "gulp": "gulp"
+  },
   "devDependencies": {
   "gulp": "latest",
   "gulp-util": "latest",

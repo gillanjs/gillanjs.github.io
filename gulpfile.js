@@ -1,5 +1,6 @@
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 
-gulp.task('name', function() {
-	
+gulp.task('log', function() {
+  gutil.log('== My Log Task ==')
 });
