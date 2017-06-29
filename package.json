@@ -2,14 +2,15 @@
   "name": "gillanjs.github.io",
   "version": "1.0.0",
   "description": "My GitHub pages site",
-    "scripts": {
+  "scripts": {
     "gulp": "gulp"
   },
   "devDependencies": {
-  "gulp": "latest",
-  "gulp-util": "latest",
-  "gulp-uglify": "latest",
-  "gulp-concat": "latest",
-  "gulp-connect": "latest"
+    "gulp": "latest",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
   }
 }
