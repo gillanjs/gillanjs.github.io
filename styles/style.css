@@ -12,9 +12,12 @@ header{
 }
 
 .name{
+    /*
     padding-top:20px;
     padding-left:150px;
-    float:left;
+
+    */
+        float:left;
 }
 
 .nav-float{
