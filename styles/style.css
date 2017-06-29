@@ -43,3 +43,8 @@ li{
 ul{
     display:inline;
 }
+
+.content{
+    background-color:#FFF;
+    height:200px;
+}
