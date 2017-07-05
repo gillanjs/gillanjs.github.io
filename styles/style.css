@@ -1,6 +1,7 @@
 body{
     background-color:#FDFDFD;
     font-family: 'Work Sans', sans-serif;
+    line-height: 1.4;
 }
 
 .container{
@@ -33,7 +34,7 @@ header{
 }
 
 .nav-li{
-    padding-top:11px;
+    padding-top:8px;
 }
 
 li{
@@ -54,7 +55,7 @@ h2{
     margin:0px;
     background-color:#cbcce0;
     color:#FFF;
-    padding-top:11px;
+    padding-top:8px;
     padding-left:15px;
     padding-bottom:10px;
 }
@@ -70,7 +71,10 @@ h2{
 }
 
 .description{
-    
+    flex-direction: column;
+    display: flex;
+    /*flex: 1;*/
+
 }
 
 .second{
@@ -89,4 +93,13 @@ p{
 
 .code-demo-links{
 
+}
+
+.technologies{
+    padding-top:11px;
+}
+
+a{
+    color:#000000;
+    
 }
