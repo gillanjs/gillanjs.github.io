@@ -69,6 +69,10 @@ h2{
     border-top: 5px solid #FDFDFD;
 }
 
+.description{
+    
+}
+
 .second{
     background-color:#cbcce0;
     color:#FFF;
@@ -81,4 +85,8 @@ img{
 p{
     margin:0;
     max-width:640px;
+}
+
+.code-demo-links{
+
 }
