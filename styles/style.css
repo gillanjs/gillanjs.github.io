@@ -80,4 +80,5 @@ img{
 
 p{
     margin:0;
+    max-width:640px;
 }
