@@ -9,6 +9,7 @@ gulp.task('js', function() {
   gulp.src('scripts/*.js')
   .pipe(uglify())
   .pipe(concat('script.js'))
+  .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('assets'))
   .pipe(connect.reload())
 });
@@ -16,6 +17,7 @@ gulp.task('js', function() {
 gulp.task('css', function() {
   gulp.src('styles/*.css')
   .pipe(cleanCSS({compatibility: 'ie8'}))
+  .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('assets'))
   .pipe(connect.reload())
 });
