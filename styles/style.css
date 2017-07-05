@@ -53,8 +53,6 @@ ul{
 
 h2{
     margin:0px;
-    background-color:#cbcce0;
-    color:#FFF;
     padding-top:8px;
     padding-left:15px;
     padding-bottom:10px;
@@ -77,15 +75,11 @@ h2{
 
 }
 
-.second{
-    background-color:#cbcce0;
+.second-color{
+    background-color:#333448;
     color:#FFF;
 }
 
-.portfolio-image-container{
-    min-width: 320px;
-
-}
 
 img{
     align-self:center; /*stops images from stretching*/
@@ -94,6 +88,7 @@ img{
 
 .portfolio-img{
     margin: 0 auto;
+    max-width: 320px;
 }
 
 p{
@@ -117,4 +112,8 @@ a{
 
 a:hover {
     color: hotpink;
+}
+
+.project-name{
+    font-weight:bold;
 }
