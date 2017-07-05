@@ -60,13 +60,19 @@ h2{
 }
 
 .portfolio-item{
-    padding:10px 1px 1px 1px;
+    padding:50px 15px 50px 15px;
     /*min-height: 100vh;*/
     flex-direction: row;
     display: flex;
     flex: 1;
     justify-content: space-between;
 }
+
+.second{
+    background-color:#48497F;
+    color:#FFF;
+}
+
 p{
     margin:0;
 }
