@@ -4,6 +4,7 @@ var uglify = require('gulp-uglify'),
     concat = require('gulp-concat');
 var connect = require('gulp-connect');
 var cleanCSS = require('gulp-clean-css');
+var rename = require('gulp-rename');
 
 gulp.task('js', function() {
   gulp.src('scripts/*.js')

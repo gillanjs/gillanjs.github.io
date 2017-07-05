@@ -11,6 +11,7 @@
     "gulp-concat": "latest",
     "gulp-connect": "latest",
     "gulp-uglify": "latest",
-    "gulp-util": "latest"
+    "gulp-util": "latest",
+    "gulp-rename": "latest"
   }
 }
