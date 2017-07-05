@@ -66,11 +66,16 @@ h2{
     display: flex;
     flex: 1;
     justify-content: space-between;
+    border-top: 5px solid #FDFDFD;
 }
 
 .second{
     background-color:#cbcce0;
     color:#FFF;
+}
+
+img{
+    align-self:center; /*stops images from stretching*/
 }
 
 p{
