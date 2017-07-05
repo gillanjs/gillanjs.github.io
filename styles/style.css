@@ -82,6 +82,11 @@ h2{
     color:#FFF;
 }
 
+.portfolio-image-container{
+    min-width: 320px;
+
+}
+
 img{
     align-self:center; /*stops images from stretching*/
 }
@@ -92,7 +97,7 @@ p{
 }
 
 .code-demo-links{
-
+    font-weight: bold;
 }
 
 .technologies{
@@ -101,5 +106,10 @@ p{
 
 a{
     color:#000000;
-    
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: hotpink;
 }
