@@ -89,6 +89,11 @@ h2{
 
 img{
     align-self:center; /*stops images from stretching*/
+
+}
+
+.portfolio-img{
+    margin: 0 auto;
 }
 
 p{
