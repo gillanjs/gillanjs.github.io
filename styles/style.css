@@ -46,7 +46,11 @@ ul{
 
 .content{
     background-color:#FFF;
-    height:200px;
+    /*height:200px;*/
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
 }
 
 h2{
@@ -56,4 +60,8 @@ h2{
     padding-top:11px;
     padding-left:15px;
     padding-bottom:10px;
+}
+
+.portfolio-item{
+    padding:10px 1px 1px 1px;
 }
