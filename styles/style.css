@@ -118,3 +118,7 @@ a:hover {
 .title-emphasis{
     font-weight:bold;
 }
+
+.svg path{
+    fill:#FFF;
+}
