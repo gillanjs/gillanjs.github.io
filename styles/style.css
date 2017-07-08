@@ -121,3 +121,11 @@ a:hover {
 .svg-white{
     fill:#FFF;
 }
+
+.rounded-edges{
+    border-radius:5px;
+}
+
+.rounded-bottom-edge{
+    border-radius:0px 0px 5px 5px;
+}
