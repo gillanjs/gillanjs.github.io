@@ -129,3 +129,7 @@ a:hover {
 .rounded-bottom-edge{
     border-radius:0px 0px 5px 5px;
 }
+
+.prof-pic{
+    border: 20px solid #333448;
+}
